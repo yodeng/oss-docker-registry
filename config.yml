@@ -1,0 +1,14 @@
+version: 0.1
+log:
+  level: debug
+storage:
+  oss:
+    accesskeyid: xxx
+    accesskeysecret: xxx
+    region: oss-cn-beijing
+    bucket: xxx
+    rootdirectory:    ### oss path
+    secure: false
+    internal: false
+http:
+  addr: 0.0.0.0:5000
